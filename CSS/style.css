@@ -153,6 +153,11 @@ main section p{
 
 .wide-section{
     padding-bottom: 5%;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .wide-section div{
@@ -169,12 +174,8 @@ main section p{
 
 main section:last-of-type{
     display: flex;
-    flex-wrap: wrap;
-}
-
-main section:last-of-type div{
-    max-width: 100%;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .last-download{
