@@ -22,6 +22,11 @@ body{
     font-family: "cabin", sans-serif;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 958px;
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -96,15 +101,16 @@ main{
 }
 
 main section{
-    padding-top: 8%;
+    padding-top: 5%;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-content: center;
     gap: 6%;
 }
 
 main section img{
-    width: 35%
+    width: 44%
 }
 
 main section div{
