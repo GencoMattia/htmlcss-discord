@@ -101,15 +101,16 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 6%;
 }
 
 main section{
     padding: 6% 0 13%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-content: flex-start;
-    gap: 5%;
+    gap: 4%;
 }
 
 main section figure{
@@ -135,8 +136,7 @@ main section p{
 }
 
 .wide-section{
-    display: flex;
-    flex-wrap: wrap; 
+    padding-bottom: 5%;
 }
 
 .wide-section div{
@@ -162,12 +162,15 @@ main section:last-of-type div{
 }
 
 .last-download{
-    padding: 10% 30%;
-    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1.5em 2em;
     text-align: center;
 }
 
 .last-download h3{
+    font-size: 1.3em;
     padding-bottom: 10%;
 }
 
