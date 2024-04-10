@@ -28,7 +28,7 @@ a:link, a:visited {
 
 /* element rules */
 body{
-    font-family: "cabin", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -98,8 +98,9 @@ header{
 }
 
 .jumbotron h1{
-    font-size: 2.5em;
+    font-size: 2.1em;
     padding: 0 0 4%;
+    font-weight: 600;
 }
 
 .jumbotron p{
