@@ -144,10 +144,11 @@ main div h2{
     line-height: 1.1em;
     padding-bottom: 8%;
     font-size: 2em;
+    font-weight: 500;
 }
 
 main section p{
-    font-size: .78em;
+    font-size: .75em;
 }
 
 .wide-section{
@@ -155,7 +156,7 @@ main section p{
 }
 
 .wide-section div{
-    width: 63%;
+    width: 65%;
 }
 
 .wide-section h2{
@@ -197,7 +198,7 @@ main section:last-of-type div{
 footer{
     background-color: #23272a;
     color: white;
-    padding: 5.7% 10% 4%;
+    padding: 5% 10% 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -214,6 +215,7 @@ footer h4{
 
 .socials-links{
 width: 20%;
+padding-right: 1%;
 }
 
 #language{
@@ -223,10 +225,6 @@ width: 20%;
     border: none;
     padding: 6% 0;
 }
-
-/* [value="Italian"]::before{
-    
-} */
 
 .socials-links ul{
     display: flex;
@@ -238,6 +236,7 @@ footer nav{
     width: 80%;
     display: flex;
     justify-content: space-between;
+    padding-left: 4%;
 }
 
 footer ul{
