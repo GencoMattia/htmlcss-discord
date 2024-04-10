@@ -82,13 +82,17 @@ header{
 }
 
 .jumbotron{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
     background-position: center center;
     color: white;
-    text-align: center;
     font-size: 1.3em;
     padding: 7% 24.5% 7.5%;
 }
