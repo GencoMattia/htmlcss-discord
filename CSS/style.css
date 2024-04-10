@@ -112,12 +112,15 @@ main section{
     gap: 5%;
 }
 
-main section img{
+main section figure{
     width: 44%
 }
 
+figure img{
+    width: 100%;
+}
+
 main section div{
-    padding-top: 6%;
     width: 25%;
 }
 
