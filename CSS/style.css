@@ -104,7 +104,7 @@ main{
 }
 
 main section{
-    padding-top: 1%;
+    padding: 6% 0 13%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -125,12 +125,30 @@ main section div{
 }
 
 main div h2{
+    line-height: 1.1em;
     padding-bottom: 8%;
     font-size: 2em;
 }
 
 main section p{
     font-size: .78em;
+}
+
+.wide-section{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.wide-section div{
+    width: 63%;
+}
+
+.wide-section h2{
+    padding-bottom: 3%;
+}
+
+.wide-section figure{
+    width: 75%;
 }
 
 main section:last-of-type{
@@ -140,7 +158,6 @@ main section:last-of-type{
 
 main section:last-of-type div{
     max-width: 100%;
-    padding: 0 15%;
     text-align: center;
 }
 
