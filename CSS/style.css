@@ -21,6 +21,11 @@ p{
     line-height: 1.5em;
 }
 
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 /* element rules */
 body{
     font-family: "cabin", sans-serif;
@@ -174,6 +179,11 @@ main section:last-of-type div{
     padding-bottom: 10%;
 }
 
+.last-download button{
+    color: white;
+    background-color: #7289da;
+}
+
 footer{
     background-color: #23272a;
     color: white;
@@ -183,8 +193,27 @@ footer{
     justify-content: space-between;
 }
 
+footer h3{
+    font-size: 1.3em;
+    color: #6d85d8;
+}
+
+footer h4{
+    color: #6d85d8;
+}
+
 .socials-links{
 width: 20%;
+}
+
+#language{
+    background-color: #23272a;
+    color: white;
+    border: none;
+}
+
+.socials-links ul{
+    display: flex;
 }
 
 footer nav{
@@ -199,6 +228,7 @@ footer ul{
 
 footer li{
     padding: 3% 0;
+    font-size: 0.6em;
 }
 
 .register{
